@@ -1,0 +1,6 @@
+curl
+ffmpeg
+libxml2
+tzdata
+wget
+zip

@@ -1,0 +1,45 @@
+[project]
+name = "literacy-screening"
+channels = ["conda-forge", "pytorch"]
+platforms = ["linux-64"]
+
+# conda package dependencies
+[dependencies]
+accelerate = "1.0.1"
+einops = "0.8.0"
+langchain = "0.3.*"
+librosa = "0.10.2.post1"
+loguru = "0.7.*"
+numpy = "1.26.*"
+pandas = "2.2.3"
+pytest = "8.3.3"
+python = "3.12.7"
+pytorch = {version = "2.4.1", channel = "pytorch"}
+scikit-learn = "1.5.*"
+scipy = "1.14.*"
+torchaudio = {version = "2.4.1", channel = "pytorch"}
+torchvision = {version = "0.19.1", channel = "pytorch"}
+transformers = "4.46.*"
+tqdm = "4.66.*"
+
+[pypi-dependencies]
+speechbrain = "==1.0.1"
+openai-whisper = "==20240930"
+
+[feature.cuda]
+platforms = ["linux-64"]
+channels = ["nvidia", {channel = "pytorch", priority = -1}]
+system-requirements = {cuda = "12.1"}
+
+[feature.cuda.dependencies]
+pytorch-cuda = {version = "12.1.*", channel = "pytorch"}
+
+[feature.cpu]
+platforms = ["linux-64"]
+
+[feature.cuda.tasks]
+check_cuda = 'python -c "import torch; print(torch.cuda.is_available())"'
+
+[environments]
+cpu = ["cpu"]
+gpu = ["cuda"]
