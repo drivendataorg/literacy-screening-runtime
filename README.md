@@ -27,15 +27,14 @@ Changes to the repository are documented in [CHANGELOG.md](./CHANGELOG.md).
 - [Setting up the data directory](#setting-up-the-data-directory)
 - [Running `make` commands](#running-make-commands)
 
-#### [2. Testing a submission locally](#testing-a-submission-locally)
+#### [2. Testing a submission locally](#testing-your-submission-locally)
 - [Code submission format](#code-submission-format)
 - [Running your submission locally](#running-your-submission-locally)
 - [Smoke tests](#smoke-tests)
-- [Runtime network access](#runtime-network-access)
 
 #### [3. Updating runtime packages](#updating-runtime-packages)
 
-#### [4. Makefile commands](#makefile-commands)
+#### [4. Makefile commands](#make-commands)
 
 ---
 
@@ -160,7 +159,7 @@ When you run `make test-submission` the logs will be printed to the terminal and
 
 ### Smoke tests
 
-When submitting on the platform, you will have the ability to submit "smoke tests". Smoke tests run on a reduced version of the test set data in order to run and debug issues more quickly. They will not be considered for prize evaluation and are intended to let you test your code for correctness. **You should test your code locally as thorougly as possible before submitting your code for smoke tests or for full evaluation.**
+When submitting on the platform, you will have the ability to submit "smoke tests." Smoke tests run on a reduced version of the train set data in order to run and debug issues more quickly. They will not be considered for prize evaluation and are intended to let you test your code for correctness. **You should test your code locally as thorougly as possible before submitting your code for smoke tests or for full evaluation.**
 
 ## Updating runtime packages
 
