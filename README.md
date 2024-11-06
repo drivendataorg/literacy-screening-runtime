@@ -60,7 +60,7 @@ Additional requirements to run with GPU:
 
 In the official code execution platform, `code_execution/data` will contain the test set audio files, `test_metadata.csv`, and `submission_format.csv`.
 
-To test your submission locally, you should use the smoke test data from the [data download page](https://www.drivendata.org/competitions/298/literacy-screening/data/). Download `smoke.tar.gz` and then run `tar xzvf smoke.tar.gz --strip-components=1 -C data/`. This will extract the files directly into `data/` without nesting them in subdirectories. Your local `data` dir should look like:
+To test your submission locally, you should use the smoke test data from the [data download page](https://www.drivendata.org/competitions/298/literacy-screening/data/). Download `smoke.tar.gz` and then run `tar xzvf smoke.tar.gz --strip-components=1 -C data/`. This will extract the files directly into `data/` without nesting them in subdirectories. Your local `data` directory should look like:
 
 ```
 data
@@ -99,7 +99,7 @@ make test-submission
 
 If you were ready to make a real submission to the competition, you would upload the `submission.zip` file from step 2 above to the competition [submission page](https://www.drivendata.org/competitions/298/literacy-screening/submissions/).
 
-To run the Whisper transcription example instead, run `EXAMPLE=transcription make pack-example`. Just be sure to download the Whisper model first and include it in the `assets` directory. There's no internet access in the runtime container, so any pretrained model weights must be included as part of the submission.
+To run the Whisper transcription example instead, replace the second command with `EXAMPLE=transcription make pack-example`. Just be sure to [download](https://github.com/drivendataorg/literacy-screening-runtime/blob/09cbb05aac0573d635d6d886450f20a619617612/examples/transcription/main.py#L16-L18) the Whisper model first and include it in the `assets` directory. There's no internet access in the runtime container, so any pretrained model weights must be included as part of the submission.
 
 ## Testing your submission locally
 
