@@ -21,6 +21,8 @@ torchaudio = {version = "2.4.1", channel = "pytorch"}
 torchvision = {version = "0.19.1", channel = "pytorch"}
 transformers = "4.46.*"
 tqdm = "4.66.*"
+pytorch-lightning = ">=2.4.0,<3"
+timm = ">=1.0.11,<2"
 
 [pypi-dependencies]
 speechbrain = "==1.0.1"
