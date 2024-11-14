@@ -307,9 +307,20 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/zipp-3.20.2-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/zstandard-0.23.0-py312hef9b889_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/zstd-1.5.6-ha6fb4c9_0.conda
+      - pypi: https://files.pythonhosted.org/packages/d3/16/137d34017ef2b6b2907ef4da31fca8bdcc20ae1b262455fb07f77ee8efcc/audeer-2.2.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/b6/db/9978df84f6a93a2c56f6120331e9ffb5a323488a3a28bb97bdc3ac0c3bf4/audformat-1.3.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/a8/60/83d6dba3626c66fd6d4976ea8ebb11488ac4bc56e482d36a403376c3092e/audinterface-1.2.2-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/89/76/9cc485c575e771daeb84586b294424aa6b102297a7727071dc753dae0daa/audiofile-1.5.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/a0/0d/d074c95e9cd5bd9a39d2851c4d96acd09a747de00f3af502c05f9a04580d/audmath-1.4.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/13/b6/df08387e80800d49567a4ad27df10e693013c68b44dd2b803a3a0bb8960c/audobject-0.7.11-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/b5/e7/f077611b41c7740ba72725aeb30e458de0ac3b99167b86ca88acdb45435b/audresample-1.3.3-py3-none-manylinux_2_17_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/33/c9/751b6401887f4b50f9307cc1e53d287b3dc77c375c126aeb6335aff73ccb/HyperPyYAML-1.2.2-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/08/d0/bf18725b8d47f37858ff801f8e4d40c6982730a899725bdb6ded62199954/iso3166-2.1.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/b3/dc/fa21389742d7b08221038d6cd10daa67105ed48f875d0f4b412e2dc83d1a/iso639_lang-2.5.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/48/7e/3a64597054a70f7c86eb0a7d4fc315b8c1ab932f64883a297bdffeb5f967/more_itertools-10.5.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/f5/77/952ca71515f81919bd8a6a4a3f89a27b09e73880cebf90957eda8f2f8545/openai-whisper-20240930.tar.gz
+      - pypi: https://files.pythonhosted.org/packages/84/7d/d265df3c8096bd482ae519233960087a758107e454438d3a0fcf1aaab8ff/opensmile-2.5.0-py3-none-manylinux_2_17_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/37/aa/111610d8bf5b1bb7a295a048fc648cec346347a8b0be5881defd2d1b4a52/oyaml-1.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/73/67/8ece580cc363331d9a53055130f86b096bf16e38156e33b1d3014fffda6b/ruamel.yaml-0.18.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/44/d0/3f68a86e006448fb6c005aee66565b9eb89014a70c491d70c08de597f8e4/ruamel.yaml.clib-0.2.12-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/4f/d2/18246f43ca730bb81918f87b7e886531eda32d835811ad9f4657c54eee35/sentencepiece-0.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
@@ -622,9 +633,20 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/zipp-3.20.2-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/zstandard-0.23.0-py312hef9b889_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/zstd-1.5.6-ha6fb4c9_0.conda
+      - pypi: https://files.pythonhosted.org/packages/d3/16/137d34017ef2b6b2907ef4da31fca8bdcc20ae1b262455fb07f77ee8efcc/audeer-2.2.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/b6/db/9978df84f6a93a2c56f6120331e9ffb5a323488a3a28bb97bdc3ac0c3bf4/audformat-1.3.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/a8/60/83d6dba3626c66fd6d4976ea8ebb11488ac4bc56e482d36a403376c3092e/audinterface-1.2.2-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/89/76/9cc485c575e771daeb84586b294424aa6b102297a7727071dc753dae0daa/audiofile-1.5.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/a0/0d/d074c95e9cd5bd9a39d2851c4d96acd09a747de00f3af502c05f9a04580d/audmath-1.4.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/13/b6/df08387e80800d49567a4ad27df10e693013c68b44dd2b803a3a0bb8960c/audobject-0.7.11-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/b5/e7/f077611b41c7740ba72725aeb30e458de0ac3b99167b86ca88acdb45435b/audresample-1.3.3-py3-none-manylinux_2_17_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/33/c9/751b6401887f4b50f9307cc1e53d287b3dc77c375c126aeb6335aff73ccb/HyperPyYAML-1.2.2-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/08/d0/bf18725b8d47f37858ff801f8e4d40c6982730a899725bdb6ded62199954/iso3166-2.1.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/b3/dc/fa21389742d7b08221038d6cd10daa67105ed48f875d0f4b412e2dc83d1a/iso639_lang-2.5.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/48/7e/3a64597054a70f7c86eb0a7d4fc315b8c1ab932f64883a297bdffeb5f967/more_itertools-10.5.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/f5/77/952ca71515f81919bd8a6a4a3f89a27b09e73880cebf90957eda8f2f8545/openai-whisper-20240930.tar.gz
+      - pypi: https://files.pythonhosted.org/packages/84/7d/d265df3c8096bd482ae519233960087a758107e454438d3a0fcf1aaab8ff/opensmile-2.5.0-py3-none-manylinux_2_17_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/37/aa/111610d8bf5b1bb7a295a048fc648cec346347a8b0be5881defd2d1b4a52/oyaml-1.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/73/67/8ece580cc363331d9a53055130f86b096bf16e38156e33b1d3014fffda6b/ruamel.yaml-0.18.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/44/d0/3f68a86e006448fb6c005aee66565b9eb89014a70c491d70c08de597f8e4/ruamel.yaml.clib-0.2.12-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/4f/d2/18246f43ca730bb81918f87b7e886531eda32d835811ad9f4657c54eee35/sentencepiece-0.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
@@ -935,9 +957,20 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/zipp-3.20.2-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/zstandard-0.23.0-py312hef9b889_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/zstd-1.5.6-ha6fb4c9_0.conda
+      - pypi: https://files.pythonhosted.org/packages/d3/16/137d34017ef2b6b2907ef4da31fca8bdcc20ae1b262455fb07f77ee8efcc/audeer-2.2.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/b6/db/9978df84f6a93a2c56f6120331e9ffb5a323488a3a28bb97bdc3ac0c3bf4/audformat-1.3.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/a8/60/83d6dba3626c66fd6d4976ea8ebb11488ac4bc56e482d36a403376c3092e/audinterface-1.2.2-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/89/76/9cc485c575e771daeb84586b294424aa6b102297a7727071dc753dae0daa/audiofile-1.5.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/a0/0d/d074c95e9cd5bd9a39d2851c4d96acd09a747de00f3af502c05f9a04580d/audmath-1.4.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/13/b6/df08387e80800d49567a4ad27df10e693013c68b44dd2b803a3a0bb8960c/audobject-0.7.11-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/b5/e7/f077611b41c7740ba72725aeb30e458de0ac3b99167b86ca88acdb45435b/audresample-1.3.3-py3-none-manylinux_2_17_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/33/c9/751b6401887f4b50f9307cc1e53d287b3dc77c375c126aeb6335aff73ccb/HyperPyYAML-1.2.2-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/08/d0/bf18725b8d47f37858ff801f8e4d40c6982730a899725bdb6ded62199954/iso3166-2.1.1-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/b3/dc/fa21389742d7b08221038d6cd10daa67105ed48f875d0f4b412e2dc83d1a/iso639_lang-2.5.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/48/7e/3a64597054a70f7c86eb0a7d4fc315b8c1ab932f64883a297bdffeb5f967/more_itertools-10.5.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/f5/77/952ca71515f81919bd8a6a4a3f89a27b09e73880cebf90957eda8f2f8545/openai-whisper-20240930.tar.gz
+      - pypi: https://files.pythonhosted.org/packages/84/7d/d265df3c8096bd482ae519233960087a758107e454438d3a0fcf1aaab8ff/opensmile-2.5.0-py3-none-manylinux_2_17_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/37/aa/111610d8bf5b1bb7a295a048fc648cec346347a8b0be5881defd2d1b4a52/oyaml-1.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/73/67/8ece580cc363331d9a53055130f86b096bf16e38156e33b1d3014fffda6b/ruamel.yaml-0.18.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/44/d0/3f68a86e006448fb6c005aee66565b9eb89014a70c491d70c08de597f8e4/ruamel.yaml.clib-0.2.12-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/4f/d2/18246f43ca730bb81918f87b7e886531eda32d835811ad9f4657c54eee35/sentencepiece-0.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
@@ -1150,6 +1183,50 @@ packages:
   - pkg:pypi/attrs?source=hash-mapping
   size: 56048
   timestamp: 1722977241383
+- kind: pypi
+  name: audeer
+  version: 2.2.0
+  url: https://files.pythonhosted.org/packages/d3/16/137d34017ef2b6b2907ef4da31fca8bdcc20ae1b262455fb07f77ee8efcc/audeer-2.2.0-py3-none-any.whl
+  sha256: 47452456288e812e43cd42bdd55a51c21a60190a0c4850130ec3883761187194
+  requires_dist:
+  - tqdm
+- kind: pypi
+  name: audformat
+  version: 1.3.1
+  url: https://files.pythonhosted.org/packages/b6/db/9978df84f6a93a2c56f6120331e9ffb5a323488a3a28bb97bdc3ac0c3bf4/audformat-1.3.1-py3-none-any.whl
+  sha256: 105d3da6b48bf99138d526d773968539a5d987698b71ec12e2c08a961538a234
+  requires_dist:
+  - audeer>=2.0.0
+  - audiofile>=0.4.0
+  - iso639-lang
+  - iso3166
+  - oyaml
+  - pandas>=2.1.0
+  - pyarrow>=10.0.1
+  - pyyaml>=5.4.1
+  requires_python: '>=3.9'
+- kind: pypi
+  name: audinterface
+  version: 1.2.2
+  url: https://files.pythonhosted.org/packages/a8/60/83d6dba3626c66fd6d4976ea8ebb11488ac4bc56e482d36a403376c3092e/audinterface-1.2.2-py3-none-any.whl
+  sha256: ce5896f94696b0f28f3c051e613d5360ef1ae8ef616138815a466bbe056a15f7
+  requires_dist:
+  - audeer>=1.18.0
+  - audformat<2.0.0,>=1.0.1
+  - audiofile>=1.3.0
+  - audmath>=1.4.1
+  - audresample<2.0.0,>=1.1.0
+  requires_python: '>=3.9'
+- kind: pypi
+  name: audiofile
+  version: 1.5.0
+  url: https://files.pythonhosted.org/packages/89/76/9cc485c575e771daeb84586b294424aa6b102297a7727071dc753dae0daa/audiofile-1.5.0-py3-none-any.whl
+  sha256: 79bf2f651ec48c886eabb16b184d6e15398153dce997a0d63784ab80318df31c
+  requires_dist:
+  - audeer
+  - audmath>=1.3.0
+  - numpy
+  - soundfile>=0.12.1
 - kind: conda
   name: audioread
   version: 3.0.1
@@ -1169,6 +1246,30 @@ packages:
   - pkg:pypi/audioread?source=hash-mapping
   size: 43942
   timestamp: 1725357558642
+- kind: pypi
+  name: audmath
+  version: 1.4.1
+  url: https://files.pythonhosted.org/packages/a0/0d/d074c95e9cd5bd9a39d2851c4d96acd09a747de00f3af502c05f9a04580d/audmath-1.4.1-py3-none-any.whl
+  sha256: 27a7509135ae31c75f693cf060d8b6b4830d9f1c54045c51b3039246252e03ef
+  requires_dist:
+  - numpy
+- kind: pypi
+  name: audobject
+  version: 0.7.11
+  url: https://files.pythonhosted.org/packages/13/b6/df08387e80800d49567a4ad27df10e693013c68b44dd2b803a3a0bb8960c/audobject-0.7.11-py3-none-any.whl
+  sha256: 82f0af8feb5d36235b74b550ccb70f55317c8ba1a81d28089f082b8c8269efdf
+  requires_dist:
+  - audeer>=1.18.0
+  - importlib-metadata>=4.8.0
+  - oyaml
+  - packaging
+- kind: pypi
+  name: audresample
+  version: 1.3.3
+  url: https://files.pythonhosted.org/packages/b5/e7/f077611b41c7740ba72725aeb30e458de0ac3b99167b86ca88acdb45435b/audresample-1.3.3-py3-none-manylinux_2_17_x86_64.whl
+  sha256: 728a6d79eccbc9966ad0d8f5a9992e857eda771bbd0ab1a25d52a2cef504f2f1
+  requires_dist:
+  - numpy
 - kind: conda
   name: aws-c-auth
   version: 0.7.31
@@ -2811,6 +2912,20 @@ packages:
   - pkg:pypi/iniconfig?source=hash-mapping
   size: 11101
   timestamp: 1673103208955
+- kind: pypi
+  name: iso3166
+  version: 2.1.1
+  url: https://files.pythonhosted.org/packages/08/d0/bf18725b8d47f37858ff801f8e4d40c6982730a899725bdb6ded62199954/iso3166-2.1.1-py3-none-any.whl
+  sha256: 263660b36f8471c42acd1ff673d28a3715edbce7d24b1550d0cf010f6816c47f
+  requires_python: '>=3.6'
+- kind: pypi
+  name: iso639-lang
+  version: 2.5.1
+  url: https://files.pythonhosted.org/packages/b3/dc/fa21389742d7b08221038d6cd10daa67105ed48f875d0f4b412e2dc83d1a/iso639_lang-2.5.1-py3-none-any.whl
+  sha256: ec24570fe0892c1a7ccdf1aad5ea4e5f0a745f9ac284c601d62d149c7a1943ce
+  requires_dist:
+  - importlib-resources ; python_full_version < '3.9'
+  requires_python: '>=3.8'
 - kind: conda
   name: jinja2
   version: 3.1.4
@@ -5438,6 +5553,14 @@ packages:
   purls: []
   size: 341592
   timestamp: 1709159244431
+- kind: pypi
+  name: opensmile
+  version: 2.5.0
+  url: https://files.pythonhosted.org/packages/84/7d/d265df3c8096bd482ae519233960087a758107e454438d3a0fcf1aaab8ff/opensmile-2.5.0-py3-none-manylinux_2_17_x86_64.whl
+  sha256: 99d9f793d213e7abbec56ab4d84906d8c61f91544d1cd2c53a9eec85cc52329f
+  requires_dist:
+  - audobject>=0.6.1
+  - audinterface>=0.7.0
 - kind: conda
   name: openssl
   version: 3.3.2
@@ -5500,6 +5623,13 @@ packages:
   - pkg:pypi/orjson?source=hash-mapping
   size: 310644
   timestamp: 1729643816480
+- kind: pypi
+  name: oyaml
+  version: '1.0'
+  url: https://files.pythonhosted.org/packages/37/aa/111610d8bf5b1bb7a295a048fc648cec346347a8b0be5881defd2d1b4a52/oyaml-1.0-py2.py3-none-any.whl
+  sha256: 3a378747b7fb2425533d1ce41962d6921cda075d46bb480a158d45242d156323
+  requires_dist:
+  - pyyaml
 - kind: conda
   name: p11-kit
   version: 0.24.1
