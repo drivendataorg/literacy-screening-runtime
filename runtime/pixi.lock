@@ -10,6 +10,7 @@ environments:
       linux-64:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-64/_openmp_mutex-4.5-2_kmp_llvm.tar.bz2
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/_py-xgboost-mutex-2.0-cpu_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/noarch/accelerate-1.0.1-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/aiohappyeyeballs-2.4.3-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/aiohttp-3.10.10-py312h178313f_0.conda
@@ -197,6 +198,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libwebp-base-1.4.0-hd590300_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libxcb-1.17.0-h8a09558_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libxcrypt-4.4.36-hd590300_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libxgboost-2.1.2-cpu_h3a1dfae_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libxml2-2.12.7-he7c6b58_4.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libzlib-1.3.1-hb9d3cd8_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/llvm-openmp-15.0.7-h0cdce71_0.conda
@@ -237,6 +239,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/propcache-0.2.0-py312h66e93f0_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/psutil-6.1.0-py312h66e93f0_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pthread-stubs-0.4-hb9d3cd8_1002.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/py-xgboost-2.1.2-cpu_pyh15c3653_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pyarrow-18.0.0-py312h9cebb41_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pyarrow-core-18.0.0-py312h01725c0_0_cpu.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pycparser-2.22-pyhd8ed1ab_0.conda
@@ -294,6 +297,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/wayland-protocols-1.37-hd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/x264-1!164.3095-h166bdaf_2.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-64/x265-3.5-h924138e_3.tar.bz2
+      - conda: https://conda.anaconda.org/conda-forge/noarch/xgboost-2.1.2-cpu_pyhac85b48_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-libx11-1.8.10-h4f16b4b_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-libxau-1.0.11-hb9d3cd8_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-libxdmcp-1.1.5-hb9d3cd8_0.conda
@@ -336,6 +340,7 @@ environments:
       linux-64:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-64/_openmp_mutex-4.5-2_kmp_llvm.tar.bz2
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/_py-xgboost-mutex-2.0-cpu_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/noarch/accelerate-1.0.1-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/aiohappyeyeballs-2.4.3-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/aiohttp-3.10.10-py312h178313f_0.conda
@@ -523,6 +528,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libwebp-base-1.4.0-hd590300_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libxcb-1.17.0-h8a09558_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libxcrypt-4.4.36-hd590300_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libxgboost-2.1.2-cpu_h3a1dfae_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libxml2-2.12.7-he7c6b58_4.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libzlib-1.3.1-hb9d3cd8_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/llvm-openmp-15.0.7-h0cdce71_0.conda
@@ -563,6 +569,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/propcache-0.2.0-py312h66e93f0_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/psutil-6.1.0-py312h66e93f0_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pthread-stubs-0.4-hb9d3cd8_1002.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/py-xgboost-2.1.2-cpu_pyh15c3653_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pyarrow-18.0.0-py312h9cebb41_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pyarrow-core-18.0.0-py312h01725c0_0_cpu.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pycparser-2.22-pyhd8ed1ab_0.conda
@@ -620,6 +627,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/wayland-protocols-1.37-hd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/x264-1!164.3095-h166bdaf_2.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-64/x265-3.5-h924138e_3.tar.bz2
+      - conda: https://conda.anaconda.org/conda-forge/noarch/xgboost-2.1.2-cpu_pyhac85b48_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-libx11-1.8.10-h4f16b4b_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-libxau-1.0.11-hb9d3cd8_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-libxdmcp-1.1.5-hb9d3cd8_0.conda
@@ -663,6 +671,7 @@ environments:
       linux-64:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-64/_openmp_mutex-4.5-2_kmp_llvm.tar.bz2
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/_py-xgboost-mutex-2.0-gpu_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/noarch/accelerate-1.0.1-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/aiohappyeyeballs-2.4.3-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/aiohttp-3.10.10-py312h178313f_0.conda
@@ -848,6 +857,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libwebp-base-1.4.0-hd590300_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libxcb-1.17.0-h8a09558_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libxcrypt-4.4.36-hd590300_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libxgboost-2.1.2-cuda120_h9dfd3e9_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libxml2-2.12.7-he7c6b58_4.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libzlib-1.3.1-hb9d3cd8_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/llvm-openmp-15.0.7-h0cdce71_0.conda
@@ -867,6 +877,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/multidict-6.1.0-py312h178313f_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/multiprocess-0.70.16-py312h66e93f0_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/munkres-1.1.4-pyh9f0ad1d_0.tar.bz2
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/nccl-2.23.4.1-h52f6c39_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/ncurses-6.5-he02047a_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/nettle-3.9.1-h7ab15ed_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/networkx-3.4.2-pyhd8ed1ab_0.conda
@@ -887,6 +898,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/propcache-0.2.0-py312h66e93f0_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/psutil-6.1.0-py312h66e93f0_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pthread-stubs-0.4-hb9d3cd8_1002.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/py-xgboost-2.1.2-cuda120_pyh2ff3e42_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pyarrow-18.0.0-py312h9cebb41_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pyarrow-core-18.0.0-py312h09cf70e_0_cuda.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pycparser-2.22-pyhd8ed1ab_0.conda
@@ -944,6 +956,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/wayland-protocols-1.37-hd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/x264-1!164.3095-h166bdaf_2.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-64/x265-3.5-h924138e_3.tar.bz2
+      - conda: https://conda.anaconda.org/conda-forge/noarch/xgboost-2.1.2-cuda120_pyh993ee4f_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-libx11-1.8.10-h4f16b4b_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-libxau-1.0.11-hb9d3cd8_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-libxdmcp-1.1.5-hb9d3cd8_0.conda
@@ -1006,6 +1019,34 @@ packages:
   purls: []
   size: 5744
   timestamp: 1650742457817
+- kind: conda
+  name: _py-xgboost-mutex
+  version: '2.0'
+  build: cpu_0
+  build_number: 1
+  subdir: linux-64
+  url: https://conda.anaconda.org/conda-forge/linux-64/_py-xgboost-mutex-2.0-cpu_0.tar.bz2
+  sha256: 504b46c85d81269b24e7b22309064886cfc873955e77daf0eb794d8e7ec8cc06
+  md5: 23b8f98a355030331f40d0245492f715
+  license: Apache-2.0
+  license_family: APACHE
+  purls: []
+  size: 7938
+  timestamp: 1538887428262
+- kind: conda
+  name: _py-xgboost-mutex
+  version: '2.0'
+  build: gpu_0
+  build_number: 1
+  subdir: linux-64
+  url: https://conda.anaconda.org/conda-forge/linux-64/_py-xgboost-mutex-2.0-gpu_0.tar.bz2
+  sha256: ef6bccb4e2114a7be586416f5e1a8656ffa11c6fddef926b5c6d5ff5179157fa
+  md5: 7702188077361f43a4d61e64c694f850
+  license: Apache-2.0
+  license_family: APACHE
+  purls: []
+  size: 12330
+  timestamp: 1644957785078
 - kind: conda
   name: accelerate
   version: 1.0.1
@@ -5001,6 +5042,45 @@ packages:
   size: 100393
   timestamp: 1702724383534
 - kind: conda
+  name: libxgboost
+  version: 2.1.2
+  build: cpu_h3a1dfae_0
+  subdir: linux-64
+  url: https://conda.anaconda.org/conda-forge/linux-64/libxgboost-2.1.2-cpu_h3a1dfae_0.conda
+  sha256: 62a3dbccdf1ba1c4e3802894f96cd5f53e7de3571baedb75c2687c2e6a658c30
+  md5: b52b9ca53c3c8954baa2085abb6b6e81
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - _openmp_mutex >=4.5
+  - libgcc >=13
+  - libstdcxx >=13
+  license: Apache-2.0
+  license_family: APACHE
+  purls: []
+  size: 3199053
+  timestamp: 1730233384687
+- kind: conda
+  name: libxgboost
+  version: 2.1.2
+  build: cuda120_h9dfd3e9_0
+  subdir: linux-64
+  url: https://conda.anaconda.org/conda-forge/linux-64/libxgboost-2.1.2-cuda120_h9dfd3e9_0.conda
+  sha256: 542340991204da2134e2c790382cb15eaf68b4e52f86c6c93887309dcb53f8c4
+  md5: ec9529af42c314a878086a4c7a1f3941
+  depends:
+  - __cuda
+  - __glibc >=2.17,<3.0.a0
+  - _openmp_mutex >=4.5
+  - cuda-version >=12.0,<13
+  - libgcc >=12
+  - libstdcxx >=12
+  - nccl >=2.23.4.1,<3.0a0
+  license: Apache-2.0
+  license_family: APACHE
+  purls: []
+  size: 100001683
+  timestamp: 1730236948485
+- kind: conda
   name: libxml2
   version: 2.12.7
   build: he7c6b58_4
@@ -5375,6 +5455,26 @@ packages:
   - pkg:pypi/munkres?source=hash-mapping
   size: 12452
   timestamp: 1600387789153
+- kind: conda
+  name: nccl
+  version: 2.23.4.1
+  build: h52f6c39_2
+  build_number: 2
+  subdir: linux-64
+  url: https://conda.anaconda.org/conda-forge/linux-64/nccl-2.23.4.1-h52f6c39_2.conda
+  sha256: 2fa2ddf0cbad0864410c59ec9d2252c166888bcc4bfbde981410cb8a2d7243b1
+  md5: e3f2356735406645a867400f38638719
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - cuda-version >=12.0,<13
+  - cuda-version >=12.0,<13.0a0
+  - libgcc >=12
+  - libstdcxx >=12
+  license: BSD-3-Clause
+  license_family: BSD
+  purls: []
+  size: 114382778
+  timestamp: 1730317848291
 - kind: conda
   name: ncurses
   version: '6.5'
@@ -5827,6 +5927,53 @@ packages:
   purls: []
   size: 8252
   timestamp: 1726802366959
+- kind: conda
+  name: py-xgboost
+  version: 2.1.2
+  build: cpu_pyh15c3653_0
+  subdir: noarch
+  noarch: python
+  url: https://conda.anaconda.org/conda-forge/noarch/py-xgboost-2.1.2-cpu_pyh15c3653_0.conda
+  sha256: 494426ced210419d0ce0eb7ff4f314ee730319f955b0a0b4d77cfd6830f013ea
+  md5: 45609bc8bda429167fb930e56b49de33
+  depends:
+  - _py-xgboost-mutex 2.0 cpu_0
+  - libxgboost * cpu_h*_0
+  - libxgboost >=2.1.2,<2.1.3.0a0
+  - numpy
+  - python >=3.9
+  - scikit-learn
+  - scipy
+  license: Apache-2.0
+  license_family: APACHE
+  purls:
+  - pkg:pypi/xgboost?source=hash-mapping
+  size: 134291
+  timestamp: 1730233063521
+- kind: conda
+  name: py-xgboost
+  version: 2.1.2
+  build: cuda120_pyh2ff3e42_0
+  subdir: noarch
+  noarch: python
+  url: https://conda.anaconda.org/conda-forge/noarch/py-xgboost-2.1.2-cuda120_pyh2ff3e42_0.conda
+  sha256: 045045444327cffae389ee19b4dea56cfb2f9081fd84033b0769b85affde1288
+  md5: 42cd713bab51c063d3c4955a57ac58a6
+  depends:
+  - __cuda
+  - _py-xgboost-mutex 2.0 gpu_0
+  - libxgboost * cuda120_h*_0
+  - libxgboost >=2.1.2,<2.1.3.0a0
+  - numpy
+  - python >=3.9
+  - scikit-learn
+  - scipy
+  license: Apache-2.0
+  license_family: APACHE
+  purls:
+  - pkg:pypi/xgboost?source=hash-mapping
+  size: 134241
+  timestamp: 1730236608671
 - kind: conda
   name: pyarrow
   version: 18.0.0
@@ -7127,6 +7274,41 @@ packages:
   purls: []
   size: 3357188
   timestamp: 1646609687141
+- kind: conda
+  name: xgboost
+  version: 2.1.2
+  build: cpu_pyhac85b48_0
+  subdir: noarch
+  noarch: python
+  url: https://conda.anaconda.org/conda-forge/noarch/xgboost-2.1.2-cpu_pyhac85b48_0.conda
+  sha256: 93baf86c19090dec4ad4e5848e5cae4b9a5639ebeb8aa8c71d1fefa9f1117f0d
+  md5: 4984847b098025484cf028c5d68d1097
+  depends:
+  - py-xgboost 2.1.2 cpu_pyh15c3653_0
+  - python >=3.9
+  license: Apache-2.0
+  license_family: APACHE
+  purls: []
+  size: 15016
+  timestamp: 1730233596113
+- kind: conda
+  name: xgboost
+  version: 2.1.2
+  build: cuda120_pyh993ee4f_0
+  subdir: noarch
+  noarch: python
+  url: https://conda.anaconda.org/conda-forge/noarch/xgboost-2.1.2-cuda120_pyh993ee4f_0.conda
+  sha256: 0416a7c189883edb1e64e29803a1d77bdbc43c3d4eba4099fa7cecdc091a19cd
+  md5: a4d287f5c6273ef5dbe7b2b358bd3b44
+  depends:
+  - __cuda
+  - py-xgboost 2.1.2 cuda120_pyh2ff3e42_0
+  - python >=3.9
+  license: Apache-2.0
+  license_family: APACHE
+  purls: []
+  size: 15027
+  timestamp: 1730237284618
 - kind: conda
   name: xorg-libx11
   version: 1.8.10
