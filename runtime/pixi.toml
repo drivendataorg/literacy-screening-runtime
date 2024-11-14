@@ -25,6 +25,7 @@ tqdm = "4.66.*"
 [pypi-dependencies]
 speechbrain = "==1.0.1"
 openai-whisper = "==20240930"
+opensmile = "==2.5.0"
 
 [feature.cuda]
 platforms = ["linux-64"]
