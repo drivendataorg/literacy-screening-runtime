@@ -328,6 +328,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/f5/77/952ca71515f81919bd8a6a4a3f89a27b09e73880cebf90957eda8f2f8545/openai-whisper-20240930.tar.gz
       - pypi: https://files.pythonhosted.org/packages/84/7d/d265df3c8096bd482ae519233960087a758107e454438d3a0fcf1aaab8ff/opensmile-2.5.0-py3-none-manylinux_2_17_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/37/aa/111610d8bf5b1bb7a295a048fc648cec346347a8b0be5881defd2d1b4a52/oyaml-1.0-py2.py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/67/a5/d1b6dbcbb05477aa5f0c5e73a7d68c6d23ab098af4461072f00999ed573a/phonetics-1.0.5.tar.gz
       - pypi: https://files.pythonhosted.org/packages/73/67/8ece580cc363331d9a53055130f86b096bf16e38156e33b1d3014fffda6b/ruamel.yaml-0.18.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/44/d0/3f68a86e006448fb6c005aee66565b9eb89014a70c491d70c08de597f8e4/ruamel.yaml.clib-0.2.12-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/4f/d2/18246f43ca730bb81918f87b7e886531eda32d835811ad9f4657c54eee35/sentencepiece-0.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
@@ -661,6 +662,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/f5/77/952ca71515f81919bd8a6a4a3f89a27b09e73880cebf90957eda8f2f8545/openai-whisper-20240930.tar.gz
       - pypi: https://files.pythonhosted.org/packages/84/7d/d265df3c8096bd482ae519233960087a758107e454438d3a0fcf1aaab8ff/opensmile-2.5.0-py3-none-manylinux_2_17_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/37/aa/111610d8bf5b1bb7a295a048fc648cec346347a8b0be5881defd2d1b4a52/oyaml-1.0-py2.py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/67/a5/d1b6dbcbb05477aa5f0c5e73a7d68c6d23ab098af4461072f00999ed573a/phonetics-1.0.5.tar.gz
       - pypi: https://files.pythonhosted.org/packages/73/67/8ece580cc363331d9a53055130f86b096bf16e38156e33b1d3014fffda6b/ruamel.yaml-0.18.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/44/d0/3f68a86e006448fb6c005aee66565b9eb89014a70c491d70c08de597f8e4/ruamel.yaml.clib-0.2.12-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/4f/d2/18246f43ca730bb81918f87b7e886531eda32d835811ad9f4657c54eee35/sentencepiece-0.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
@@ -993,6 +995,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/f5/77/952ca71515f81919bd8a6a4a3f89a27b09e73880cebf90957eda8f2f8545/openai-whisper-20240930.tar.gz
       - pypi: https://files.pythonhosted.org/packages/84/7d/d265df3c8096bd482ae519233960087a758107e454438d3a0fcf1aaab8ff/opensmile-2.5.0-py3-none-manylinux_2_17_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/37/aa/111610d8bf5b1bb7a295a048fc648cec346347a8b0be5881defd2d1b4a52/oyaml-1.0-py2.py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/67/a5/d1b6dbcbb05477aa5f0c5e73a7d68c6d23ab098af4461072f00999ed573a/phonetics-1.0.5.tar.gz
       - pypi: https://files.pythonhosted.org/packages/73/67/8ece580cc363331d9a53055130f86b096bf16e38156e33b1d3014fffda6b/ruamel.yaml-0.18.6-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/44/d0/3f68a86e006448fb6c005aee66565b9eb89014a70c491d70c08de597f8e4/ruamel.yaml.clib-0.2.12-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/4f/d2/18246f43ca730bb81918f87b7e886531eda32d835811ad9f4657c54eee35/sentencepiece-0.2.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
@@ -5820,6 +5823,11 @@ packages:
   - pkg:pypi/pandas?source=hash-mapping
   size: 15436913
   timestamp: 1726879054912
+- kind: pypi
+  name: phonetics
+  version: 1.0.5
+  url: https://files.pythonhosted.org/packages/67/a5/d1b6dbcbb05477aa5f0c5e73a7d68c6d23ab098af4461072f00999ed573a/phonetics-1.0.5.tar.gz
+  sha256: 16263948c82fce1e257964b2ab4adc953f995e0fa7e2e60e6ba336d77a7235ba
 - kind: conda
   name: pillow
   version: 11.0.0

@@ -28,6 +28,7 @@ python-levenshtein = "0.26.*"
 speechbrain = "==1.0.1"
 openai-whisper = "==20240930"
 opensmile = "==2.5.0"
+phonetics = "==1.0.5"
 
 [feature.cuda]
 platforms = ["linux-64"]
