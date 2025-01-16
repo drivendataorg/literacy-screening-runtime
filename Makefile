@@ -1,6 +1,116 @@
 #################################################################################
 # Settings                                                                      #
 #################################################################################
+ifeq (, $(shell which nvidia-smi))
+CPU_OR_GPU ?= cpu
+else
+CPU_OR_GPU ?= gpu
+endif
+
+BLOCK_INTERNET ?= true
+PLATFORM_ARGS = --platform linux/amd64
+
+TAG := ${CPU_OR_GPU}-latest
+LOCAL_TAG := ${CPU_OR_GPU}-local
+
+IMAGE_NAME = literacy-screening-competition
+OFFICIAL_IMAGE = literacyscreening.azurecr.io/${IMAGE_NAME}
+LOCAL_IMAGE = ${IMAGE_NAME}
+
+# Resolve which image to use in commands. The priority is:
+# 1. User-provided, e.g., SUBMISSION_IMAGE=my-image:gpu-local make test-submission
+# 2. Local image, e.g., literacy-screening-competition:gpu-local
+# 3. Official competition image, e.g., literacyscreening.azurecr.io/literacy-screening-competition
+SUBMISSION_IMAGE ?= ${LOCAL_IMAGE}:${LOCAL_TAG}
+ifeq (,$(shell docker images -q ${SUBMISSION_IMAGE}))
+SUBMISSION_IMAGE = ${OFFICIAL_IMAGE}:${TAG}
+endif
+
+# Get the image ID
+SUBMISSION_IMAGE_ID := $(shell docker images -q ${SUBMISSION_IMAGE})
+
+# Name of the running container, i.e., docker run ... --name <CONTAINER_NAME>
+CONTAINER_NAME ?= ${IMAGE_NAME}
+
+# Enable or disable host GPU access
+ifeq (${CPU_OR_GPU}, gpu)
+GPU_ARGS = --gpus all
+endif
+
+SKIP_GPU ?= false
+ifeq (${SKIP_GPU}, true)
+GPU_ARGS =
+endif
+
+# If no TTY (for example GitHub Actions CI) no interactive tty commands for docker
+ifneq (true, ${GITHUB_ACTIONS_NO_TTY})
+TTY_ARGS = -it
+endif
+
+# Option to block or allow internet access from the submission Docker container
+ifeq (true, ${BLOCK_INTERNET})
+NETWORK_ARGS = --network none
+endif
+
+# Name of the example submission to pack when running `make pack-example`
+EXAMPLE ?= random
+
+.PHONY: _check_image _echo_image _submission_write_perms
+
+# Give write access to the submission folder to everyone so Docker user can write when mounted
+_submission_write_perms:
+	mkdir -p submission/
+	chmod -R 0777 submission/
+
+
+_check_image:
+# If container does not exist, error and tell user to pull or build
+ifeq (${SUBMISSION_IMAGE_ID},)
+	$(error To test your submission, you must first run `make pull` (to get official container) or `make build` \
+		(to build a local version if you have changes).)
+endif
+
+_echo_image:
+	@echo
+ifeq (,${SUBMISSION_IMAGE_ID})
+	@echo "$$(tput bold)Using image:$$(tput sgr0) ${SUBMISSION_IMAGE} (image does not exist locally)"
+	@echo
+else
+	@echo "$$(tput bold)Using image:$$(tput sgr0) ${SUBMISSION_IMAGE} (${SUBMISSION_IMAGE_ID})"
+	@echo "┏"
+	@echo "┃ NAME(S)"
+
+	@docker inspect $(SUBMISSION_IMAGE_ID) --format='{{join .RepoTags "\n"}}' | awk '{print "┃ "$$0}'
+
+	@echo "└"
+	@echo
+endif
+ifeq (,$(shell docker images ${OFFICIAL_IMAGE} -q))
+	@echo "$$(tput bold)No official images available locally$$(tput sgr0)"
+	@echo "Run 'make pull' to download the official image."
+	@echo
+else
+	@echo "$$(tput bold)Available official images:$$(tput sgr0)"
+	@echo "┏"
+	@docker images ${OFFICIAL_IMAGE} | awk '{print "┃ "$$0}'
+	@echo "└"
+	@echo
+endif
+ifeq (,$(shell docker images ${LOCAL_IMAGE} -q))
+	@echo "$$(tput bold)No local images available$$(tput sgr0)"
+	@echo "Run 'make build' to build the image."
+	@echo
+else
+	@echo "$$(tput bold)Available local images:$$(tput sgr0)"
+	@echo "┏"
+	@docker images ${LOCAL_IMAGE} | awk '{print "┃ "$$0}'
+	@echo "└"
+	@echo
+endif
+
+#################################################################################
+# Settings                                                                      #
+#################################################################################
 
 ifeq (, $(shell which nvidia-smi))
 CPU_OR_GPU ?= cpu

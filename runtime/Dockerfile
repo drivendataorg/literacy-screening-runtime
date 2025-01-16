@@ -11,6 +11,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
     SHELL=/bin/bash
 
 # Create user andset permissions
+
 ENV RUNTIME_USER=runtimeuser
 ENV RUNTIME_UID=1000
 ENV RUNTIME_GID=1000
