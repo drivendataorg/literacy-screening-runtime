@@ -23,6 +23,7 @@ transformers = "4.46.*"
 tqdm = "4.66.*"
 xgboost = "2.1.*"
 python-levenshtein = "0.26.*"
+timm = "1.0.*"
 
 [pypi-dependencies]
 speechbrain = "==1.0.1"
